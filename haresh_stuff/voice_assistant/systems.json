@@ -1,0 +1,19 @@
+{
+    "NOTEPAD": "C:\\Windows\\System32\\notepad.exe",
+    "CALCULATOR": "C:\\Windows\\System32\\calc.exe",
+    "COMMAND PROMPT": "C:\\Windows\\System32\\cmd.exe",
+    "PAINT": "C:\\Program Files\\WindowsApps\\Microsoft.Paint_11.2502.161.0_x64__8wekyb3d8bbwe\\PaintApp\\mspaint.exe",
+    "TASK MANAGER": "C:\\Windows\\System32\\Taskmgr.exe",
+    "FILE EXPLORER": "C:\\Windows\\explorer.exe",
+    "CHROME": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "EDGE": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "WORD": "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE",
+    "EXCEL": "C:\\Program Files\\Microsoft Office\\root\\Office16\\EXCEL.EXE",
+    "POWERPOINT": "C:\\Program Files\\Microsoft Office\\root\\Office16\\POWERPNT.EXE",
+    "OUTLOOK": "C:\\Program Files\\Microsoft Office\\root\\Office16\\OUTLOOK.EXE",
+    "ZOOM": "C:\\Users\\iamha\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
+    "SPOTIFY": "D:\\WindowsApps\\SpotifyAB.SpotifyMusic_1.260.564.0_x64__zpdnekdrzrea0\\Spotify.exe",
+    "VLC MEDIA PLAYER": "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe",
+    "GIT BASH": "C:\\Program Files\\Git\\git-bash.exe",
+    "VISUAL STUDIO CODE": "C:\\Users\\iamha\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+}

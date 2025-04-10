@@ -17,7 +17,7 @@ def generate(x):
     generate_content_config = types.GenerateContentConfig(
         response_mime_type="text/plain",
         system_instruction=[
-            types.Part.from_text(text="""Give response in a single paragraph at most 5 to 100 words"""),
+            types.Part.from_text(text="""Give response in a single paragraph at most 5 to 100 words. And name your self as zero"""),
         ],
     )
     ans = ''

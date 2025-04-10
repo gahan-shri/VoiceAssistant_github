@@ -1,20 +1,16 @@
-import stt as s
-import tts as t
-import assi as g
-import time
-t.sollu("Ask whater you want to do")
-while 1:
-    a = s.kelu()
-    a = a.upper()
-    if "ROBO" in a:
-        x = a.split()
-        t.sollu("Moving robo "+str(x[1:]))
-    elif "EXIT" in a:
-        t.sollu("Exitting the program")
-        break
-    else:
-        a = a.title()
-        print(a)
-        a = g.generate(a)
-        print(a)
-        t.sollu(a)
+import tkinter as tk
+from voice_assistant_ui_tkinter import VoiceAssistantUI
+import subprocess
+
+if __name__ == "__main__":
+    # Open all assistant-related files
+    subprocess.Popen(["python", "d:\\coding\\Python\\voice_assistant\\stt.py"])
+    subprocess.Popen(["python", "d:\\coding\\Python\\voice_assistant\\tts.py"])
+    subprocess.Popen(["python", "d:\\coding\\Python\\voice_assistant\\assi.py"])
+    subprocess.Popen(["python","d:\\coding\\Python\\voice_assistant\\serialSend.py"])
+
+    # Launch the Tkinter UI
+    root = tk.Tk()
+    app = VoiceAssistantUI(root)
+    root.mainloop()
+
